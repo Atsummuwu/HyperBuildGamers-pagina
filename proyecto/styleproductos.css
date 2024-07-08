@@ -1,0 +1,128 @@
+/* Estilos para la página de productos */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4B0082; /* Morado */
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2rem;
+}
+
+header form {
+    margin: 20px 0;
+}
+
+header .btn-outline-primary {
+    color: white;
+    border-color: white;
+}
+
+header .btn-outline-primary:hover {
+    color: #4B0082; /* Morado */
+    background-color: white;
+    border-color: white;
+}
+
+header .btn-outline-info {
+    color: white;
+    border-color: white;
+}
+
+header .btn-outline-info:hover {
+    color: #4B0082; /* Morado */
+    background-color: white;
+    border-color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4B0082; /* Morado */
+    padding: 10px;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar .nav-link {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.navbar .nav-link:hover {
+    color: #32CD32; /* Verde */
+}
+
+.container {
+    padding: 20px;
+    background-color: rgb(126, 8, 194);
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.producto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.333% - 20px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.producto .info {
+    text-align: center;
+}
+
+.producto .info h2 {
+    font-size: 1.5rem;
+    color: #4B0082; /* Morado */
+}
+
+.producto .info p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.producto .info .precio {
+    font-size: 1.2rem;
+    color: #32CD32; /* Verde */
+    font-weight: bold;
+}

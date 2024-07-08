@@ -1,0 +1,67 @@
+/* stylehora.css */
+
+/* Estilo para el formulario de reserva */
+.container-formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-formulario h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-formulario label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.container-formulario input[type="text"],
+.container-formulario input[type="email"],
+.container-formulario input[type="tel"],
+.container-formulario input[type="date"],
+.container-formulario input[type="time"],
+.container-formulario textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container-formulario input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-formulario input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.back-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button button {
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button button:hover {
+    background-color: #bbb;
+}
